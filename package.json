@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Making a portfolio for myself",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "Anas",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "parser": "^0.1.4"
+  }
+}
