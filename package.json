@@ -1,13 +1,13 @@
 {
-  "homepage":"https://anaszaheer.github.io/Portfolio",
+  "homepage": "https://anaszaheer.github.io/Portfolio",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Making a portfolio for myself",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Anas",
   "license": "ISC",
@@ -19,5 +19,8 @@
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15",
     "parser": "^0.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
